@@ -12,7 +12,7 @@
     <div class="page-container">
 
         <header class="header">
-            ВОЗЬМИТЕ ПОЖАЛУЙТА КОТЯТ!!!
+            <h1>ВОЗЬМИТЕ ПОЖАЛУЙТА КОТЯТ!!!</h1>
         </header>
 
         <nav class="nav">
@@ -26,37 +26,45 @@
         </nav>
 
         <main class="content">
-            <section class="profile-header">
-                <h1 class="profile-title">Гатилова Евгения Александровна</h1>
-                <img class="profile-photo" src="images/mlp.jpg" alt="Фото автора" width="450" height="250" />
+            <article class="profile-header">
+                <h1 class="profile-title">Информация об авторе</h1>                <img class="profile-photo" src="images/mlp.jpg" alt="Фото автора" width="450" height="250" />
+                <h2 class="profile-name">Гатилова Евшения Александровна</h2>
                 <p class="profile-group">ЭФБО-11-24</p>
-            </section>
+                </article>
 
             <section class="about-me">
+                <h2>Обо мне</h2>
                 <p>Я родился в Москве в 70-м на краю города. Глупость рано ударила в голову. В четыре активно ругался.
                     Потом школа, форма, драки, клей. Так я становился сильней. Воровал деньги в раздевалке.</p>
             </section>
 
             <section class="skills-container">
-                <div class="skill-tag">люблю котят</div>
-                <div class="skill-tag">люблю мультсериал my little pony</div>
-                <div class="skill-tag">люблю клубнику</div>
-                <div class="skill-tag">окончила музыкалку</div>
+                <h2>Мои навыки</h2> <!-- Добавили заголовок для семантики -->
+                <div class="skills-grid"> <!-- Обертка для Grid -->
+                    <div class="skill-tag">люблю котят</div>
+                    <div class="skill-tag">люблю мультсериал my little pony</div>
+                    <div class="skill-tag">люблю клубнику</div>
+                    <div class="skill-tag">окончила музыкалку</div>
+                </div>
             </section>
 
-            <section class="experience-section">
-                <h2 class="section-title">Мой опыт работы:</h2>
-                <div class="experience-card">
-                    <p class="experience-title">Опыт 1</p>
-                    <p class="experience-desc">играл и пел в группе</p>
-                </div>
-                <div class="experience-card">
-                    <p class="experience-title">Опыт 2</p>
-                    <p class="experience-desc">писал сайтик</p>
-                </div>
-                <div class="experience-card">
-                    <p class="experience-title">Опыт 3</p>
-                    <p class="experience-desc">рисовал маслом 3-4 года подряд</p>
+            <section class="experience-section"> <!-- Было: <div class="experience-section"> -->
+                <h2 class="section-title">Мой опыт работы</h2>
+                <div class="experience-grid"> <!-- Обертка для Grid -->
+                    <article class="experience-card"> 
+                        <h3 class="experience-title">Опыт 1</h3>
+                        <p class="experience-desc">играл и пел в группе</p>
+                    </article>
+                
+                    <article class="experience-card"> 
+                        <h3 class="experience-title">Опыт 2</h3>
+                        <p class="experience-desc">писал сайтик</p>
+                    </article>
+
+                    <article class="experience-card">
+                        <h3 class="experience-title">Опыт 3</h3>
+                        <p class="experience-desc">рисовал маслом 3-4 года подряд</p>
+                    </article>
                 </div>
             </section>
         </main>
@@ -66,9 +74,9 @@
             <p>✉️ Email: example@mail.ru</p>
             <p>📍 Адрес: г. Москва, ул. Примерная, д. 1</p>
             <p>
-                <a href="https://vk.com/" target="_blank" style="color: #f5f5f5; text-decoration: none; margin: 0 10px;">VK</a> |
-                <a href="https://t.me/" target="_blank" style="color: #f5f5f5; text-decoration: none; margin: 0 10px;">Telegram</a> |
-                <a href="https://instagram.com/" target="_blank" style="color: #f5f5f5; text-decoration: none; margin: 0 10px;">Instagram</a>
+                <a href="https://vk.com/kyyyyyyyyyyy" target="_blank" style="color: #f5f5f5; text-decoration: none; margin: 0 10px;">VK</a> |
+                <a href="https://t.me/kuuurkuma" target="_blank" style="color: #f5f5f5; text-decoration: none; margin: 0 10px;">Telegram</a> |
+                <a href="https://www.vabakane.ru/" target="_blank" style="color: #f5f5f5; text-decoration: none; margin: 0 10px;">WhatsApp</a>
             </p>
             <p style="margin-top: 15px; font-size: 13px; color: #ddd;">© 2025 Мой сайт. Все права защищены.</p>
         </footer>
